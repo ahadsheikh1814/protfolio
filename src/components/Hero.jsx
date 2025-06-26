@@ -18,7 +18,7 @@ function Hero() {
           <button className="animated-button relative flex items-center gap-1 px-4 sm:px-5 py-2 sm:py-2.5 border-4 border-transparent text-xs sm:text-sm font-semibold bg-[#c5e5e4] rounded-full text-[#1f387e] shadow-[0_0_0_2px_#ffffff] cursor-pointer overflow-hidden transition-all duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] hover:shadow-[0_0_0_12px_transparent] hover:text-[#212121] hover:rounded-xl active:scale-95 active:shadow-[0_0_0_4px_greenyellow] group w-fit">
             <span className="circle absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 sm:w-3 h-2 sm:h-3 bg-white rounded-full opacity-0 transition-all duration-800 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:w-[140px] sm:group-hover:w-[160px] group-hover:h-[140px] sm:group-hover:h-[160px] group-hover:opacity-100"></span>
             <span className="text relative z-10 -translate-x-1 sm:-translate-x-1.5 transition-all duration-800 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:translate-x-1 sm:group-hover:translate-x-1.5">
-              <Link href="/contact">Contact Me</Link>
+              <Link href="/Contact">Contact Me</Link>
             </span>
             <svg
               className="arr-1 absolute w-3 sm:w-4 fill-[#1f387e] z-10 right-2 sm:right-2.5 transition-all duration-800 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:-right-1/4"
