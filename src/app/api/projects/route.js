@@ -23,7 +23,7 @@ export async function GET() {
             `https://api.vercel.com/v6/deployments?projectId=${project.id}&limit=1`,
             {
               headers: {
-                Authorization: `Bearer ${process.env.VERCEL_TOKEN}`,
+                Authorization: `Bearer ${process.env.V_TOKEN}`,
               },
             }
           );

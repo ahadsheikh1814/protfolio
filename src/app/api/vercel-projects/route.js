@@ -26,7 +26,7 @@ export async function GET() {
           const deploymentsResponse = await axios.get(
             `https://api.vercel.com/v13/deployments?projectId=${project.id}&limit=1&target=production`,
             {
-              headers: { Authorization: `Bearer ${process.env.VERCEL_TOKEN}` },
+              headers: { Authorization: `Bearer ${process.env.V_TOKEN}` },
             }
           ).catch(err => {
             throw new Error(`Failed to fetch deployments for ${project.name}: ${err.message}`);
