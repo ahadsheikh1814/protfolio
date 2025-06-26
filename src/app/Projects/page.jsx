@@ -41,7 +41,8 @@ const ProjectsPage = () => {
 
   // Manual URL mapping for Vercel projects (fallback)
   const vercelUrlMap = {
-    'sushi': 'https://sushi-plum.vercel.app/', // Update with actual URL if different
+    'sushi': 'https://sushi-plum.vercel.app/',
+    'ahad-sheikh17-2025':'https://ahad-sheikh17-2025.vercel.app', // Update with actual URL if different
   };
 
   const cardVariants = {
