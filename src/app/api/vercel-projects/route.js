@@ -3,17 +3,17 @@ import axios from 'axios';
 
 export async function GET() {
   try {
-    if (!process.env.VERCEL_TOKEN) {
-      console.error('VERCEL_TOKEN is not set in environment variables');
+    if (!process.env.V_TOKEN) {
+      console.error('V_TOKEN is not set in environment variables');
       return NextResponse.json(
-        { error: 'Server configuration error: Missing VERCEL_TOKEN' },
+        { error: 'Server configuration error: Missing V_TOKEN' },
         { status: 500 }
       );
     }
 
     // Fetch all projects
     const projectsResponse = await axios.get('https://api.vercel.com/v9/projects', {
-      headers: { Authorization: `Bearer ${process.env.VERCEL_TOKEN}` },
+      headers: { Authorization: `Bearer ${process.env.V_TOKEN}` },
     }).catch(err => {
       throw new Error(`Failed to fetch projects: ${err.message}, status: ${err.response?.status}`);
     });
