@@ -43,7 +43,8 @@ const ProjectsPage = () => {
   const vercelUrlMap = {
     'sushi': 'https://sushi-plum.vercel.app/',
     'ahad-sheikh17-2025':'https://ahad-sheikh17-2025.vercel.app',
-    'my-blog':'https://my-blog-liard-pi.vercel.app/' ,// Update with actual URL if different
+    'my-blog':'https://my-blog-liard-pi.vercel.app/' ,
+    'cripto-tracker':'https://cripto-tracker-vert.vercel.app/',// Update with actual URL if different
   };
 
   const cardVariants = {
