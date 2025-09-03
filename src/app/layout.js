@@ -28,6 +28,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="manifest" href="/site.webmanifest" />
+        <meta name="google-site-verification" content="f8sGcHre4r-fcTDQVnnND06gJ2Cm0ji45B0bkNdbKw4" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
